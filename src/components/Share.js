@@ -5,7 +5,7 @@ const Share = () => {
     }
 
 
-    let url = fixedEncodeURIComponent("https://stunning-klepon-822c8b.netlify.app/share");
+    let url = fixedEncodeURIComponent("https://stunning-klepon-822c8b.netlify.app/share/12345");
     console.log(url);
     return (
         <div>
