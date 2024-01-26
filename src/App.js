@@ -10,9 +10,9 @@ function App() {
   return (
     <Router>
       <h1>Hello React World</h1>
-      <Link to="/share">Share</Link>
+      <Link to="/share/12345">Share</Link>
       <Routes>
-        <Route path="/share" element={<Share />} />
+        <Route path="/share/12345" element={<Share />} />
       </Routes>
     </Router>
   )
